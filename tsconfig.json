@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        //"noImplicitAny": true,
+        "removeComments": true,
+        //"preserveConstEnums": true,
+        "sourceMap": true,
+        "target": "es5",
+        "jsx": "react",
+        "outDir": "./dist/"
+    },
+    "files": [
+        "./typings/index.d.ts",
+        "./src/components/Hello.tsx",
+        "./src/index.tsx"
+    ]
+}
